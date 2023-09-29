@@ -1,0 +1,27 @@
+header {
+   height:70px;
+   background-color:#3F344E;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+header .userAbout {
+   display: flex;
+   align-items: center;
+   margin-left:5px;
+}
+.userAbout img {
+   width:40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 2px solid silver;
+   object-fit: cover;
+   margin:5px;
+}
+.userAbout span {
+   font-size: 18px;
+   font-weight: 500;
+   color:whitesmoke;
+   margin-left: 10px;
+
+}

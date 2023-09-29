@@ -1,0 +1,38 @@
+.sideBar {
+   width:250px;
+   min-height:600px;
+   background-color: brown;
+   padding:2px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap:20px;
+}
+.sideBar div {
+   margin: 14px;
+   padding: 10px auto;
+   color:whitesmoke;
+   display: flex;
+   justify-content: center;
+} .sideBar div .logo {
+   position: relative;
+   margin:3px 6px;
+   font-size: 25px;
+   padding-right:10px;
+}
+.sideBar div.dashboard {
+   padding-top: 3px;
+   margin-bottom: 25px;
+}
+.sideBar div.dashboard h3 {
+   font-size: 20px;
+}
+
+.sideBar div p {
+   font-size: 20px;
+}
+.sideBar div.logout {
+   position: absolute;
+   bottom: 30px;
+}

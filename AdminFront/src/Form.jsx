@@ -1,5 +1,6 @@
 import "./form.css";
-const Form = ({ onFormsubmit, onCarInfoChange, carDetails }) => {
+import {useState} from 'react'
+const Form = ({ onFormsubmit, onCarInfoChange, carDetails}) => {  
   return (
     <form action="" onSubmit={onFormsubmit}>
       <div>
